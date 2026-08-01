@@ -1,0 +1,115 @@
+body {
+    background-color: #F1F2F3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.clock {
+    font-family: Work Sans;
+    font-size: 15px;
+    margin-top: -1px;
+}
+
+.mobileSignal {
+    width: 17px;
+    height: 10.67px;
+}
+
+.wifi {
+    width: 15.27px;
+    height: 10.97px;
+}
+
+.battery {
+    width: 18px;
+    height: 10px;
+}
+
+main {
+    margin-top: 75px;
+}
+
+.output1 {
+    text-align: right;
+    margin-bottom: 12%;
+    margin-right: 3%;
+}
+
+.calculate {
+    background-color: #F1F2F3;
+    color: #D2D3DA;
+    border : none;
+    font-family: Work Sans;
+    font-size: 2rem;
+    width: 90%;
+}
+
+.output2 {
+    text-align: right;
+    margin-top: -12%;
+    margin-bottom: 10px;
+    margin-right: 3%;
+}
+
+.result {
+    background-color: #F1F2F3;
+    border : none;
+    font-family: Work Sans;
+    font-size: 3.5rem;
+    width: 90%;
+}
+
+.divSection {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.grayButton {
+    font-family: Work Sans;
+    font-size: 30px;
+    width: 20%;
+    padding: 12px 11.75px 12px 12px;
+    border-radius: 24px;
+    background-color: #D2D3DA;
+    border : none;
+}
+
+.pinkButton {
+    font-family: Work Sans;
+    font-size: 37px;
+    width: 20%;
+    padding: 12px 11.75px 12px 12px;
+    border-radius: 24px;
+    background-color: #FC4B4B;
+    color: #FFFFFF;
+    border : none;
+}
+
+.numbers {
+    font-family: Work Sans;
+    font-size: 37px;
+    width: 20%;
+    padding: 12px 11.75px 12px 12px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    border : none;
+}
+
+#blackButton {
+    background-color: #000000;
+}
+
+.eraser {
+    width: 60px;
+    height: 60px;
+}
+
+#numbersEraser {
+    padding: 0px;
+}

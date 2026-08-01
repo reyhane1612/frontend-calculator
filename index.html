@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header >
+        <p class="clock"><b>9:41</b></p>
+        <div class="headerPictures">
+            <img class="mobileSignal" src="./assets/mobileSignal.png" alt="mobileSignal">
+            <img class="wifi" src="./assets/wifi.png" alt="wifi">
+            <img class="battery" src="./assets/battery.png" alt="battery">
+        </div>
+    </header>
+    <main>
+        <div class="output1">
+            <input type="text" class="calculate">
+        </div> 
+        <div class="output2">
+            <input type="text" class="result">
+        </div>
+        <div class="divSection">
+            <button class="grayButton">C</button>
+            <button class="grayButton">+/-</button>
+            <button class="grayButton">%</button>
+            <button class="pinkButton">÷</button>
+        </div>
+        <div class="divSection">
+            <button class="numbers">7</button>
+            <button class="numbers">8</button>
+            <button class="numbers">9</button>
+            <button class="pinkButton">×</button>
+        </div>
+        <div class="divSection">
+            <button class="numbers">4</button>
+            <button class="numbers">5</button>
+            <button class="numbers">6</button>
+            <button class="pinkButton">-</button>
+        </div>
+        <div class="divSection">
+            <button class="numbers">1</button>
+            <button class="numbers">2</button>
+            <button class="numbers">3</button>
+            <button class="pinkButton">+</button>
+        </div>
+        <div class="divSection">
+            <button class="numbers">.</button>
+            <button class="numbers">0</button>
+            <button class="numbers" id="numbersEraser"><img class="eraser" src="./assets/eraser.png" alt="eraser"></button>
+            <button class="pinkButton" id="blackButton">=</button>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
